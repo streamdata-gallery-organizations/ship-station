@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Ship Station",
+	"description": "This is a repository of ship station APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/ship-station.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://ship-station.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Ship Station",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/ship-station/master/_listings/ship-station/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Ship Station",
+	"include": [
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/ship-station/master/_listings/ship-station/apis.yaml"
+		}
+	]
+}
